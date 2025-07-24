@@ -14,6 +14,8 @@ MENTOR: NEELA SANTOSH
 
 DESCRIPTION:
 
+This Python script is a **graphical AES-256 file encryption and decryption tool** using the Tkinter GUI library and the PyCryptodome cryptographic library. It allows users to securely encrypt and decrypt files through a simple user interface. The script uses the **AES algorithm in CBC mode** with a **256-bit key**, which is derived from a user-provided password using **PBKDF2 key derivation** with a random salt and 1,000,000 iterations for strong security. For encryption, the file contents are padded, encrypted, and saved with the salt and IV prepended. For decryption, the script extracts the salt and IV, derives the key again, and decrypts the ciphertext. Users interact with the program through a GUI where they input a password and select files for encryption or decryption. This tool is useful for securely storing sensitive files with strong cryptographic protection, while still being easy to use.
+
 
 
 
